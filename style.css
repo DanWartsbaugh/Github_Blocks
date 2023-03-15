@@ -1,0 +1,41 @@
+.container{
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    width:800px
+}
+
+.title{
+    background-color: blue;
+    padding:10px;
+    text-align: center;
+}
+
+.row1{
+    background-color: aqua;
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+
+.row2{
+    background-color: green;
+    margin-top:20px;
+    display:flex;
+    justify-content:space-evenly;
+    padding:20px;
+}
+
+.row3{
+    background-color: yellowgreen;
+    margin-top:20px;
+    display:flex;
+    justify-content:space-around;
+    padding:20px;
+}
+
+img{
+    height:200px;
+}
